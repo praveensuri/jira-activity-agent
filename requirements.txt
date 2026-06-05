@@ -1,0 +1,42 @@
+# JIRA Integration
+atlassian-python-api==3.41.0
+requests==2.31.0
+python-jira==1.8.14
+
+# Web Framework
+Flask==3.0.0
+Flask-CORS==4.0.0
+gunicorn==21.2.0
+
+# AI/LLM
+openai==1.3.0
+langchain==0.1.0
+pydantic==2.5.0
+
+# Database & Caching
+redis==5.0.0
+sqlalchemy==2.0.23
+
+# Data Processing
+pandas==2.1.0
+numpy==1.24.0
+python-dateutil==2.8.2
+
+# Configuration & Logging
+python-dotenv==1.0.0
+loguru==0.7.2
+
+# Utilities
+click==8.1.7
+typing-extensions==4.8.0
+retrying==1.3.4
+
+# Testing
+pytest==7.4.3
+pytest-cov==4.1.0
+pytest-mock==3.12.0
+
+# Code Quality
+black==23.11.0
+flake8==6.1.0
+mypy==1.7.0
